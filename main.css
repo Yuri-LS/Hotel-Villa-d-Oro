@@ -1,0 +1,79 @@
+body{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar{
+    background-color: #D4AF37;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #D4AF37;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover
+.nav-quartos .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.section-title{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.section-title span{
+    color: #D4AF37;
+}
+
+#sobre-o-hotel,
+#quartos{
+    background-color: #edd8ce;
+}
+
+.text-colored{
+    color: #D4AF37;
+    font-weight: bold;
+}
+
+.nav-quartos .nav-link.active,
+#reservas button{
+    background-color: #D4AF37;
+    color: #fff;
+}
+
+.nav-quartos .nav-link:hover{
+    color: #D4AF37;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+textarea{
+    resize: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
+
+
+
